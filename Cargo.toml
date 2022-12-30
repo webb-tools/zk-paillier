@@ -19,7 +19,7 @@ crate-type = ["lib"]
 
 [dependencies]
 rand = "0.6"
-serde = { version = "1.0", features = ["derive"] }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
 rayon = "1.1"
 bit-vec = "0.6"
 sha2 = "0.9"
